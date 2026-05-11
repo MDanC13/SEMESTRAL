@@ -367,18 +367,44 @@ body {
     list-style: none;
 }
 
-.category-nav {
-    position:absolute;
+.category-nav ul li a {
+    position:relative;
     top: 540px;
-    left: 150px;
+    right: 700px;
     flex-direction: column;
     gap: 20px;
     font-size-adjust: calc(1);
     text-decoration: none;
     justify-content: center;
+    color:#000
+}
+
+.cakes h2 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    font-size-adjust: calc(1);
 }
   
-  
+.divider2 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+  height: 5px; 
+  background-color: #ccc;
+  width: 69%; 
+  margin: 20px auto;
+}
+
+.search-box {
+    position: absolute;
+    top: 420px;
+    right: 100px;
+    display: flex;
+    gap: 10px;
+    border:none;
+    font-size: 16px;   
+}
 
 /* --- CONTACT HEADER --- */
 .contact-header {
